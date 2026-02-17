@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuration files (excluded as per user request)
+model_config.json
+workspace_config.json
+tools_config.json
+
+# Workspace files
+work_space/*
+!work_space/.gitkeep
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
